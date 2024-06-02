@@ -78,7 +78,7 @@ const ExpenseTracker = () => {
   return (
     <div className="container mx-auto p-4 flex justify-center items-center relative">
       <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6 w-full">
-        <h1 className="text-2xl font-bold mb-4 text-center">Expense Tracker</h1>
+        <h1 className="text-2xl font-bold mb-4 text-center">BudgetAudit</h1>
         <div className="mb-4">
           <label htmlFor="budget" className="block font-bold mb-2">Set Budget:</label>
           <input

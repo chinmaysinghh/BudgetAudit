@@ -1,6 +1,6 @@
-# Expense Tracker
+# BudgetAudit
 
-Expense Tracker is a web application that helps users manage their expenses efficiently. It provides functionalities for adding, searching, exporting, and managing recurring expenses, all with a user-friendly interface.
+BudgetAudit is a web application that helps users manage their expenses efficiently. It provides functionalities for adding, searching, exporting, and managing recurring expenses, all with a user-friendly interface.
 
 ## Features
 
@@ -16,5 +16,3 @@ Expense Tracker is a web application that helps users manage their expenses effi
 - **Frontend**: React, Tailwind CSS
 - **Icons**: Font Awesome
 - **CSV Export**: FileSaver.js
-
-

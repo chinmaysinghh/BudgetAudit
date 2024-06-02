@@ -9,7 +9,7 @@ const App = () => {
         <ExpenseTracker />
         <div className="ml-64">
           <img src="https://i.ibb.co/dWbc9hD/magnifying-glass-sits-magnifying-glass-862462-7960-removebg.png"
-            alt="Expense Tracker"
+            alt="BudgetAudit"
             className="max-w-xl"
           />
         </div>
