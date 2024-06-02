@@ -5,8 +5,6 @@ const AddExpenseModal = ({ onClose, onAdd, onAddRecurring }) => {
   const [amount, setAmount] = useState('');
   const [isRecurring, setIsRecurring] = useState(false);
   const [frequency, setFrequency] = useState(1);
-  const [budget, setBudget] = useState('');
-  const [period, setPeriod] = useState('monthly'); // or 'annual'
 
   const handleAdd = () => {
     const newExpense = {
@@ -58,24 +56,6 @@ const AddExpenseModal = ({ onClose, onAdd, onAddRecurring }) => {
             />
           </div>
         )}
-        <div className="flex items-center mb-3">
-          <label className="text-gray-700 mr-2">Budget:</label>
-          <input 
-            type="number" 
-            placeholder="Budget amount" 
-            value={budget} 
-            onChange={(e) => setBudget(e.target.value)} 
-            className="border border-gray-300 rounded p-2 w-36"
-          />
-          <select 
-            value={period} 
-            onChange={(e) => setPeriod(e.target.value)} 
-            className="border border-gray-300 rounded p-2 ml-2"
-          >
-            <option value="monthly">Monthly</option>
-            <option value="annual">Annual</option>
-          </select>
-        </div>
         <div className="flex justify-end">
           <button 
             className="bg-gray-200 text-gray-700 px-4 py-2 rounded mr-2 hover:bg-gray-300 transition-colors"
