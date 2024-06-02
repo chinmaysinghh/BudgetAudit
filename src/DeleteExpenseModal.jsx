@@ -1,4 +1,4 @@
-// src/components/DeleteExpenseModal.jsx
+
 import React from 'react';
 
 const DeleteExpenseModal = ({ onClose, onDelete }) => {
